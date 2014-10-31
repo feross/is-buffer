@@ -9,8 +9,8 @@
 [npm-image]: https://img.shields.io/npm/v/is-buffer.svg?style=flat
 [npm-url]: https://npmjs.org/package/is-buffer
 [downloads-image]: https://img.shields.io/npm/dm/is-buffer.svg?style=flat
-[saucelabs-image]: https://saucelabs.com/browser-matrix/buffer.svg
-[saucelabs-url]: https://saucelabs.com/u/buffer
+[saucelabs-image]: https://saucelabs.com/browser-matrix/is-buffer.svg
+[saucelabs-url]: https://saucelabs.com/u/is-buffer
 
 ## Why not use `Buffer.isBuffer`?
 
