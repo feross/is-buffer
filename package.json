@@ -1,0 +1,56 @@
+{
+  "name": "is-buffer",
+  "description": "Determine if an object is Buffer",
+  "version": "0.0.0",
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/feross/is-buffer/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^3.0.1"
+  },
+  "homepage": "http://feross.org",
+  "keywords": [
+    "buffer",
+    "buffers",
+    "type",
+    "core buffer",
+    "browser buffer",
+    "browserify",
+    "typed array",
+    "uint32array",
+    "int16array",
+    "int32array",
+    "float32array",
+    "float64array",
+    "browser",
+    "arraybuffer",
+    "dataview"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/is-buffer.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/4..latest",
+      "firefox/3..latest",
+      "safari/5.1..latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6"
+    ]
+  }
+}
