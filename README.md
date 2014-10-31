@@ -14,7 +14,7 @@
 
 ## Why not use `Buffer.isBuffer`?
 
-If you just want to check if an object is a `Buffer` without require('buffer') (which bundles the entire [buffer](https://github.com/feross/buffer) module in [browserify](http://browserify.org/)), then use this module. It's future-proof and works in node too!
+If you just want to check if an object is a `Buffer` without `require('buffer')` (which bundles the entire [buffer](https://github.com/feross/buffer) module in [browserify](http://browserify.org/)), then use this module. It's future-proof and works in node too!
 
 ## install
 
