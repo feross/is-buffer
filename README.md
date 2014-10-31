@@ -44,6 +44,12 @@ isBuffer({}) // false
 isBuffer(function foo () {}) // false
 ```
 
+## browser support
+
+This works in all browsers, except Safari below version 8, because it has a broken
+imeplementation of
+[`Object.prototype.constructor`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor). The issue was fixed in Safari 8 and iOS 8.
+
 ## license
 
 MIT. Copyright (C) [Feross Aboukhadijeh](http://feross.org).
