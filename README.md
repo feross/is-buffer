@@ -1,6 +1,6 @@
 # is-buffer [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][npm-url]
 
-#### Determine if an object is a [`Buffer`](http://nodejs.org/api/buffer.html) (incl. [browser](https://github.com/feross/buffer) buffers).
+#### Determine if an object is a [`Buffer`](http://nodejs.org/api/buffer.html) (incl. [browser Buffers](https://github.com/feross/buffer))
 
 [![saucelabs][saucelabs-image]][saucelabs-url]
 
