@@ -12,7 +12,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tape": "^3.0.1"
+    "tape": "^3.0.1",
+    "zuul": "^1.13.0"
   },
   "homepage": "http://feross.org",
   "keywords": [
@@ -39,18 +40,12 @@
     "url": "git://github.com/feross/is-buffer.git"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "npm run test-node && npm run test-browser",
+    "test-browser": "zuul -- test/*.js",
+    "test-browser-local": "zuul --local -- test/*.js",
+    "test-node": "tape test/*.js"
   },
   "testling": {
-    "files": "test/*.js",
-    "browsers": [
-      "ie/6..latest",
-      "chrome/4..latest",
-      "firefox/3..latest",
-      "safari/5.1..latest",
-      "opera/11.0..latest",
-      "iphone/6",
-      "ipad/6"
-    ]
+    "files": "test/*.js"
   }
 }

@@ -2,19 +2,21 @@
 
 #### Determine if an object is a [`Buffer`](http://nodejs.org/api/buffer.html) (incl. [browser](https://github.com/feross/buffer) buffers).
 
-[![testling][testling-image]][testling-url]
+[![saucelabs][saucelabs-image]][saucelabs-url]
 
 [travis-image]: https://img.shields.io/travis/feross/is-buffer.svg?style=flat
 [travis-url]: https://travis-ci.org/feross/is-buffer
 [npm-image]: https://img.shields.io/npm/v/is-buffer.svg?style=flat
 [npm-url]: https://npmjs.org/package/is-buffer
 [downloads-image]: https://img.shields.io/npm/dm/is-buffer.svg?style=flat
-[testling-image]: https://ci.testling.com/feross/is-buffer.png
-[testling-url]: https://ci.testling.com/feross/is-buffer
+[saucelabs-image]: https://saucelabs.com/browser-matrix/buffer.svg
+[saucelabs-url]: https://saucelabs.com/u/buffer
 
 ## Why not use `Buffer.isBuffer`?
 
-If you just want to check if an object is a `Buffer` without `require('buffer')` (which bundles the entire [buffer](https://github.com/feross/buffer) module in [browserify](http://browserify.org/)), then use this module. It's future-proof and works in node too!
+This module lets you check if an object is a `Buffer` without using `Buffer.isBuffer` (which includes the whole [buffer](https://github.com/feross/buffer) module in [browserify](http://browserify.org/)).
+
+It's future-proof and works in node too!
 
 ## install
 
