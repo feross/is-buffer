@@ -12,7 +12,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tape": "^3.0.1",
+    "tape": "^4.0.0",
     "zuul": "^1.13.0"
   },
   "homepage": "http://feross.org",
