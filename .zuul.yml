@@ -5,7 +5,7 @@ browsers:
   - name: firefox
     version: 21..latest
   - name: ie
-    version: 6..latest
+    version: 8..latest
   - name: opera
     version: 11..latest
   - name: android
