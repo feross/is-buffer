@@ -10,3 +10,5 @@ browsers:
     version: 11..latest
   - name: android
     version: 4.0..latest
+  - name: safari
+    version: 8..latest
