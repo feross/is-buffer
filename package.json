@@ -16,7 +16,9 @@
     "tape": "^4.0.0",
     "zuul": "^3.0.0"
   },
-  "homepage": "http://feross.org",
+  "engines": {
+    "node": ">=0.12"
+  },
   "keywords": [
     "buffer",
     "buffers",
