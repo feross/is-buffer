@@ -38,6 +38,9 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/feross/is-buffer.git"
