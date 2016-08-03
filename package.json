@@ -17,7 +17,7 @@
     "zuul": "^3.0.0"
   },
   "engines": {
-    "node": ">=0.12"
+    "node": ">=0.10"
   },
   "keywords": [
     "buffer",
