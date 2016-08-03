@@ -3,6 +3,7 @@ var test = require('tape')
 
 test('is-buffer', function (t) {
   t.ok(isBuffer(new Buffer(4)), 'new Buffer(4)')
+  t.ok(isBuffer(require('buffer').SlowBuffer(100)), 'SlowBuffer(100)')
 
   t.notOk(isBuffer(undefined), 'undefined')
   t.notOk(isBuffer(null), 'null')
