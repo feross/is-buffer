@@ -19,7 +19,7 @@ module.exports = function (obj) {
 }
 
 function checkSlowBuffer (obj) {
-  if (!obj.slice) return false;
+  if (!obj.slice) return false
   var buf = obj.slice(0, 0)
   return buf.constructor && buf.constructor.isBuffer &&
     buf.constructor.isBuffer(obj)
