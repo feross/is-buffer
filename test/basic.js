@@ -1,13 +1,9 @@
-var buffer = require('buffer')
 var isBuffer = require('../')
 var test = require('tape')
 
 test('is-buffer', function (t) {
-  /* eslint-disable node/no-deprecated-api */
-  t.equal(isBuffer(new Buffer(4)), true, 'new Buffer(4)')
-  t.equal(isBuffer(new buffer.SlowBuffer(100)), true, 'new SlowBuffer(100)')
-  /* eslint-enable node/no-deprecated-api */
-
+  t.equal(isBuffer(Buffer.alloc(4)), true, 'Buffer.alloc(4)')
+  t.equal(isBuffer(Buffer.allocUnsafeSlow(100)), true, 'Buffer.allocUnsafeSlow(100)')
   t.equal(isBuffer(undefined), false, 'undefined')
   t.equal(isBuffer(null), false, 'null')
   t.equal(isBuffer(''), false, 'empty string')
