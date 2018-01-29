@@ -5,7 +5,7 @@
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
-    "url": "http://feross.org/"
+    "url": "https://feross.org"
   },
   "bugs": {
     "url": "https://github.com/feross/is-buffer/issues"
@@ -17,21 +17,21 @@
     "zuul": "^3.0.0"
   },
   "keywords": [
-    "buffer",
-    "buffers",
-    "type",
-    "core buffer",
+    "arraybuffer",
+    "browser",
     "browser buffer",
     "browserify",
-    "typed array",
-    "uint32array",
-    "int16array",
-    "int32array",
+    "buffer",
+    "buffers",
+    "core buffer",
+    "dataview",
     "float32array",
     "float64array",
-    "browser",
-    "arraybuffer",
-    "dataview"
+    "int16array",
+    "int32array",
+    "type",
+    "typed array",
+    "uint32array"
   ],
   "license": "MIT",
   "main": "index.js",
