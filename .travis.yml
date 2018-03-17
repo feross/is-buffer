@@ -1,7 +1,11 @@
-sudo: false
 language: node_js
 node_js:
   - lts/*
+addons:
+  sauce_connect: true
+  hosts:
+    - airtap.local
+sudo: false
 env:
   global:
     - secure: du27W3wTgZ3G183axW7w0I01lOIurx8kilMH9p45VMfNXCu8lo6FLtLIQZxJ1FYMoJLQ1yfJTu2G0rq39SotDfJumsk6tF7BjTY/HKCocZaHqCMgw0W2bcylb5kMAdLhBNPlzejpPoWa1x1axbAHNFOLQNVosG/Bavu3/kuIIps=
