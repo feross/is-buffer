@@ -47,8 +47,5 @@
     "test-browser": "airtap -- test/*.js",
     "test-browser-local": "airtap --local -- test/*.js",
     "test-node": "tape test/*.js"
-  },
-  "testling": {
-    "files": "test/*.js"
   }
 }
