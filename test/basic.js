@@ -2,6 +2,7 @@ var isBuffer = require('../')
 var test = require('tape')
 
 test('is-buffer', function (t) {
+  t.equal(isBuffer(Buffer.from([4])), true, 'Buffer.from([4])')
   t.equal(isBuffer(Buffer.alloc(4)), true, 'Buffer.alloc(4)')
   t.equal(isBuffer(Buffer.allocUnsafeSlow(100)), true, 'Buffer.allocUnsafeSlow(100)')
   t.equal(isBuffer(undefined), false, 'undefined')
