@@ -47,6 +47,7 @@ isBuffer(0) // false
 isBuffer(1) // false
 isBuffer(1.0) // false
 isBuffer('string') // false
+isBuffer([]) // false
 isBuffer({}) // false
 isBuffer(function foo () {}) // false
 ```
