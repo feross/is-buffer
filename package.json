@@ -37,7 +37,8 @@
     "uint32array"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "index.cjs",
+  "module": "index.mjs",
   "repository": {
     "type": "git",
     "url": "git://github.com/feross/is-buffer.git"
