@@ -31,9 +31,8 @@ npm install is-buffer
 ## usage
 
 ```js
-var isBuffer = require('is-buffer')
+import isBuffer from 'is-buffer'
 
-isBuffer(new Buffer(4)) // true
 isBuffer(Buffer.alloc(4)) //true
 
 isBuffer(undefined) // false
