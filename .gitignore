@@ -1,0 +1,5 @@
+.airtap.yml
+.github/
+.travis.yml
+test/
+node_modules/
