@@ -1,5 +1,5 @@
-var isBuffer = require('../')
-var test = require('tape')
+const isBuffer = require('../')
+const test = require('tape')
 
 test('is-buffer', function (t) {
   t.equal(isBuffer(Buffer.from([4])), true, 'Buffer.from([4])')

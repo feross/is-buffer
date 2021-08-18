@@ -12,9 +12,11 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^15.6.0",
     "airtap": "^3.0.0",
     "standard": "*",
-    "tape": "^5.0.1"
+    "tape": "^5.0.1",
+    "tsd": "^0.16.0"
   },
   "engines": {
     "node": ">=4"
@@ -38,15 +40,19 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "index.d.ts"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/feross/is-buffer.git"
   },
   "scripts": {
-    "test": "standard && npm run test-node && npm run test-browser",
+    "test": "standard && npm run test-node && npm run test-browser && npm run test-types",
     "test-browser": "airtap -- test/*.js",
     "test-browser-local": "airtap --local -- test/*.js",
-    "test-node": "tape test/*.js"
+    "test-node": "tape test/*.js",
+    "test-types": "tsd"
   },
   "funding": [
     {
