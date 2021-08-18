@@ -1,5 +1,5 @@
 /// <reference types='node' />
 
-declare function isBuffer(obj: any): obj is Buffer;
+declare function isBuffer(obj: unknown): obj is Buffer;
 
 export = isBuffer;
